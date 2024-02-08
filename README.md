@@ -8,19 +8,29 @@ Neste projeto, utilizei técnicas de processamento de imagens e a biblioteca Tes
 
 ## Processo
 
-### 1. Coleta de Imagens
-- Utilizei um conjunto de imagens de documentos, placas, e outros objetos contendo texto.
+### Coleta de ImagensCrie um recurso de serviços de IA do Azure
+Você pode usar os recursos de análise de imagem do Azure AI Vision com um recurso multisserviço de serviços de IA do Azure . Se ainda não o fez, crie um recurso de serviços de IA do Azure na sua assinatura do Azure.
 
-### 2. Pré-processamento de Imagens
-- Realizei técnicas de pré-processamento de imagens, como redimensionamento, binarização e remoção de ruídos para melhorar a qualidade das imagens antes do reconhecimento de texto.
+Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com , entrando com a conta da Microsoft associada à sua assinatura do Azure.
 
-### 3. Reconhecimento de Texto com Tesseract
-- Utilizei a biblioteca Tesseract para realizar o reconhecimento de texto nas imagens processadas.
-- Expliquei os parâmetros e configurações utilizados para otimizar o reconhecimento de texto.
+Clique no botão ＋Criar um recurso e pesquise os serviços de IA do Azure . Selecione criar um plano de serviços de IA do Azure . Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
+Assinatura : sua assinatura do Azure .
+Grupo de recursos : selecione ou crie um grupo de recursos com um nome exclusivo .
+Região : Leste dos EUA.
+Nome : Insira um nome exclusivo .
+Nível de preços : Padrão S0.
+Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo : Selecionado .
+Selecione Revisar + criar e depois Criar e aguarde a conclusão da implantação.
 
-### 4. Resultados e Insights
-- Apresentei os resultados do reconhecimento de texto em diferentes tipos de imagens.
-- Compartilhei insights e possíveis aplicações práticas do reconhecimento de texto em diversos contextos.
+Em outra guia do navegador, navegue até Vision Studio .
+
+Entre com sua conta e certifique-se de usar o mesmo diretório onde você criou seu recurso de serviços de IA do Azure.
+
+Na página inicial do Vision Studio, selecione Visualizar todos os recursos no título Introdução ao Vision .
+
+O link Visualizar todos os recursos está destacado em Introdução ao Vision no Vision Studio.
+
+Na página Selecione um recurso para trabalhar , passe o cursor do mouse sobre o recurso que você criou acima na lista e marque a caixa à esquerda do nome do recurso e selecione Selecionar como recurso padrão .
 
 ## Estrutura do Repositório
 
